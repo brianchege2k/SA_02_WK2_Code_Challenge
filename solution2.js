@@ -7,7 +7,7 @@ function arrayGenerator(num1,num2){
     let generatedArray = []
 
     if (num1 <= num2){
-        
+
         for(let i = num1; i <= num2; i++){
 
             generatedArray.push(i)
@@ -26,3 +26,5 @@ function arrayGenerator(num1,num2){
 
 
 console.log(arrayGenerator(4,7))
+
+console.log(arrayGenerator(-4,7))

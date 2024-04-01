@@ -4,7 +4,7 @@ function stringSwap(string){
     //Empty finalString variable
     let finalString = ''
 
-    //use for loop for iteration
+    //For loop for iteration
 
     for(let i = 0 ; i < string.length; i++){
 
@@ -20,8 +20,5 @@ function stringSwap(string){
         //returns the swapped string
     }return finalString
 }
-
-
-
 //final output
 console.log(stringSwap('The Quick Brown Fox'))
