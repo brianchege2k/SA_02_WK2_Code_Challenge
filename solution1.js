@@ -9,16 +9,16 @@ function stringSwap(string){
     for(let i = 0 ; i < string.length; i++){
 // variable for storing the characters in the string
         const characters = string[i];
-//change to lowercase if character is uppercase
+//the if condition will change to lowercase if character is uppercase
         if (characters === characters.toUpperCase()){
             finalString += characters.toLowerCase()
-//change to uppercase if character is lowercase
+//lse it will change to uppercase if character is lowercase
         }else{
             finalString += characters.toUpperCase()
         }
 
-        //returns the swapped string
+        // function returns the swapped string
     }return finalString
 }
-//final output
+//final output in terminal
 console.log(stringSwap('The Quick Brown Fox'))
