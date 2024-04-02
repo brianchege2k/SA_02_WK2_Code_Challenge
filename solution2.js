@@ -12,7 +12,7 @@ function arrayGenerator(num1,num2){
 
         }
     }else{
-//second iteration in reverse order and value inside the array variable
+//second iteration in reverse order and push value inside the array variable
         for (let i = num1; i >= num2; i--){
             
             generatedArray.push(i)
