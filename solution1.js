@@ -7,14 +7,14 @@ function stringSwap(string){
     //For loop for iteration
 
     for(let i = 0 ; i < string.length; i++){
-
-        const char = string[i];
-
-        if (char === char.toUpperCase()){
-            finalString += char.toLowerCase()
-
+// variable for storing the characters in the string
+        const characters = string[i];
+//change to lowercase if character is uppercase
+        if (characters === characters.toUpperCase()){
+            finalString += characters.toLowerCase()
+//change to uppercase if character is lowercase
         }else{
-            finalString += char.toUpperCase()
+            finalString += characters.toUpperCase()
         }
 
         //returns the swapped string

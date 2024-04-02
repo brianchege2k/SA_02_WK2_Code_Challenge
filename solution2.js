@@ -1,5 +1,4 @@
 //function that accepts two numbers
-
 function arrayGenerator(num1,num2){
 
     //empty array variable
